@@ -1,0 +1,24 @@
+{
+  "name": "taishan-uav-sandtable-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CesiumJS low-altitude UAV inspection sandtable prototype for Taian inspection data.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "verify:map": "node ../scripts/verify_map.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "cesium": "^1.141.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "vite": "^7.2.7",
+    "vite-plugin-static-copy": "^4.1.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
